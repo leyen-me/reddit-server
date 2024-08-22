@@ -75,7 +75,7 @@ async function deepLTranslator(
     text: sentences,
     target_lang: "ZH",
   };
-  const response = await fetch("https://api-free.deepl.com/v2/translate", {
+  const response = await fetch("https://api.deepl.com/v2/translate", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
